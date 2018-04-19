@@ -14,5 +14,9 @@ watch -n1 curl -s --cookie-jar /tmp/foojar --cookie @/tmp/foojar http://foo.exam
 
 # Auth Headers
 ```
+# check /auth works
 curl -v http://localhost/a
+
+# pass stuff from /auth to echo
+curl -v localhost/ah
 ```
