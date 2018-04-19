@@ -12,4 +12,7 @@ docker-compose exec nginx sh -c 'while true; do nginx -s reload; sleep 3; done'
 watch -n1 curl -s --cookie-jar /tmp/foojar --cookie @/tmp/foojar http://foo.example.org/
 ```
 
-
+# Auth Headers
+```
+curl -v http://localhost/a
+```
